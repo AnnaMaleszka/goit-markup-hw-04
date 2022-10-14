@@ -64,11 +64,13 @@ h6 {
 .link-contact {
   text-decoration: none;
   color: var(--paragraph-color);
+  fill: #757575;
 }
 
 .list-contact .link-contact:hover,
 .list-contact .link-contact:focus {
   color: var(--logo-kolor);
+  fill: v#2196F3;
 }
 
 .list-navi .link:hover,
@@ -126,9 +128,14 @@ h6 {
 }
 
 .page-description {
-  background-color: var(--footer-color);
+  background-image: url("	https://github.com/AnnaMaleszka/goit-markup-hw-04/blob/f3b555a0f5ecb3d47580ae9f42c618655cfea97c/images/images/background.jpg?raw=true");
   height: 600px;
   text-align: center;
+  background-color: rgba(47, 48, 58, 0.4);
+  background-blend-mode: difference;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .button {
@@ -168,6 +175,14 @@ h1 {
   background-color: var(--footer-color);
 
   padding: 60px 0;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  gap: 70px;
 }
 
 .list-working {
@@ -232,7 +247,6 @@ h1 {
   line-height: 1.17;
   color: var(--paragraph-color);
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .border {
@@ -361,6 +375,107 @@ h1 {
   align-items: center;
 }
 
-.icon-fill {
-  fill: #000000;
+.social-media-icons {
+  margin-top: 16px;
+  /* margin-left: 32px; */
+  margin-bottom: 30px;
+  display: flex;
+
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icon {
+  fill: #afb1b8;
+  background-color: #ffffff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+
+.icon-link {
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+}
+
+.icon-spacing {
+  margin-right: 10px;
+}
+
+.contact-icon {
+  fill: #757575;
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: #2196f3;
+}
+
+.our-clients-border {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.our-clients-border:hover,
+.our-clients-border:focus {
+  border-color: #2196f3;
+}
+
+.our-clients-icon {
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+}
+
+.our-clients-icon:hover,
+.our-clients-icon:focus {
+  fill: #2196f3;
+}
+
+.clients-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-us {
+  color: #ffffff;
+
+  font-weight: 700;
+
+  font-size: 14px;
+
+  line-height: 1.17;
+}
+
+.footer-gap {
+  width: 270px;
+  margin: 0;
+  margin-right: 70px;
+  padding-right: 0px;
+}
+
+.social-media-icon-footer {
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-media-icon-footer:hover {
+  background-color: #2196f3;
 }
